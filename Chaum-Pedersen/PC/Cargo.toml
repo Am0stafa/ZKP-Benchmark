@@ -1,0 +1,10 @@
+[package]
+name = "RPC"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = { version = "0.4", features = ["rand"] }
+rand = "0.8"
+hex = "0.4.3"
+tonic = "0.9"
